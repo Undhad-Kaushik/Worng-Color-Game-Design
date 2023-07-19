@@ -15,10 +15,7 @@ class AllLavelPlayGame: UIViewController {
     @IBOutlet weak var timeCountProgressBar: UIProgressView!
     @IBOutlet weak var midiumCollectionView: UICollectionView!
     @IBOutlet weak var highScoreLabel: UILabel!
-    
-    //    var timerCount: Double = UserDefaults.standard.double(forKey: "second")
-    //    var timer: Timer!
-    
+   
     var point: Int = 0
     var frequency = 0.1
     var rendomColour = UIColor()
@@ -34,8 +31,6 @@ class AllLavelPlayGame: UIViewController {
         rendomColour = arrcolor.randomElement()!
         setup()
     }
-    
-    
     
     private func setup(){
         
@@ -173,4 +168,5 @@ extension AllLavelPlayGame: UICollectionViewDelegateFlowLayout{
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat { return 8 }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat { return 22 }
+    
 }

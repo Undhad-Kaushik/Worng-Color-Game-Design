@@ -9,11 +9,10 @@ import UIKit
 
 class MainPageViewController: UIViewController {
     @IBOutlet weak var screenImage: UIImageView!
-    
     @IBOutlet weak var imageView: UINavigationItem!
     @IBOutlet weak var ChooseWrongColorLabel: UILabel!
-    
     @IBOutlet weak var playButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         

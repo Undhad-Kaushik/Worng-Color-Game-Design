@@ -12,5 +12,4 @@ import UIKit
 struct Colour{
     var id: Int
     var colorName: String
-   // var UIcolor: UIColor
 }

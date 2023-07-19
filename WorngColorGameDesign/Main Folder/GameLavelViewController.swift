@@ -9,12 +9,10 @@ import UIKit
 
 class GameLavelViewController: UIViewController {
     @IBOutlet weak var screenImage: UIImageView!
-    
     @IBOutlet weak var gameSelectModeLabel: UILabel!
     @IBOutlet weak var easyLavelButton: UIButton!
     @IBOutlet weak var midiumLavelButton: UIButton!
     @IBOutlet weak var hardLavelButton: UIButton!
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
